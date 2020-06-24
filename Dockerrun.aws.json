@@ -5,25 +5,25 @@
             "name": "client",
             "image": "shannerterman/multi-client",
             "hostname": "client",
-            "essential": "false",
+            "essential": false
         },
         {
             "name": "server",
             "image": "shannerterman/multi-server",
             "hostname": "api",
-            "essential": "false",
+            "essential": false
         },
         {
             "name": "worker",
             "image": "shannerterman/multi-worker",
             "hostname": "worker",
-            "essential": "false",
+            "essential": false
         },
         {
             "name": "nginx",
             "image": "shannerterman/multi-nginx",
             "hostname": "nginx",
-            "essential": "true",
+            "essential": true
         }
     ]
 
